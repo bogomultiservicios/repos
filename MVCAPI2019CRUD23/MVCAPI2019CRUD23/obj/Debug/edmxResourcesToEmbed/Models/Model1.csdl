@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRUEBASABCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="VEHICULOS">
+    <Key>
+      <PropertyRef Name="IDVEHICULO" />
+    </Key>
+    <Property Name="IDVEHICULO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MARCA" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="COLOR" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="MODELO" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="PRECIO" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="FECHARECEPCION" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="ESTADO" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="REGISTRO" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="PRUEBASABCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="VEHICULOS" EntityType="Self.VEHICULOS" />
+    <FunctionImport Name="ACTUALIZARVEHICULO">
+      <Parameter Name="MARCA" Mode="In" Type="String" />
+      <Parameter Name="COLOR" Mode="In" Type="String" />
+      <Parameter Name="MODELO" Mode="In" Type="String" />
+      <Parameter Name="PRECIO" Mode="In" Type="String" />
+      <Parameter Name="FECHARECEPCION" Mode="In" Type="String" />
+      <Parameter Name="ESTADO" Mode="In" Type="String" />
+      <Parameter Name="REGISTRO" Mode="In" Type="String" />
+      <Parameter Name="IDVEHICULO" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="BUSCARVEHICULO" ReturnType="Collection(PRUEBASABCModel.BUSCARVEHICULO_Result)">
+      <Parameter Name="IDVEHICULO" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ELIMINARVEHICULO">
+      <Parameter Name="IDVEHICULO" Mode="In" Type="Int32" />
+      <Parameter Name="REGISTRO" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="INGRESARVEHICULO">
+      <Parameter Name="MARCA" Mode="In" Type="String" />
+      <Parameter Name="COLOR" Mode="In" Type="String" />
+      <Parameter Name="MODELO" Mode="In" Type="String" />
+      <Parameter Name="PRECIO" Mode="In" Type="String" />
+      <Parameter Name="FECHARECEPCION" Mode="In" Type="String" />
+      <Parameter Name="ESTADO" Mode="In" Type="String" />
+      <Parameter Name="REGISTRO" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="BUSCARVEHICULO_Result">
+    <Property Type="Int32" Name="IDVEHICULO" Nullable="false" />
+    <Property Type="String" Name="MARCA" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="COLOR" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MODELO" Nullable="true" MaxLength="4" />
+    <Property Type="String" Name="PRECIO" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="FECHARECEPCION" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ESTADO" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="REGISTRO" Nullable="true" MaxLength="20" />
+  </ComplexType>
+</Schema>

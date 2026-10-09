@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToDo.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Entry Placeholder="Escribe una Tarea"  
+              x:Name="campoTarea"/>
+            <Entry Placeholder="Persona asignada" 
+                   x:Name="personaAsignada"/>
+            <Button Text="Agregar Tarea" 
+                    Clicked="agregarTarea"/>
+            <StackLayout x:Name="cajaTareas">
+                
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

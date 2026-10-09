@@ -1,0 +1,14 @@
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\bin\Debug\net8.0-windows\PruebaDespliegue1.exe
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\bin\Debug\net8.0-windows\PruebaDespliegue1.deps.json
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\bin\Debug\net8.0-windows\PruebaDespliegue1.runtimeconfig.json
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\bin\Debug\net8.0-windows\PruebaDespliegue1.dll
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\bin\Debug\net8.0-windows\PruebaDespliegue1.pdb
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\PruebaDespliegue1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\PruebaDespliegue1.AssemblyInfoInputs.cache
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\PruebaDespliegue1.AssemblyInfo.cs
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\PruebaDespliegue1.csproj.CoreCompileInputs.cache
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\PruebaDespliegue1.dll
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\refint\PruebaDespliegue1.dll
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\PruebaDespliegue1.pdb
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\PruebaDespliegue1.genruntimeconfig.cache
+C:\Users\edwin\source\repos\PruebaDespliegue1\PruebaDespliegue1\obj\Debug\net8.0-windows\ref\PruebaDespliegue1.dll

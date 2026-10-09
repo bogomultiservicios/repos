@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NumeroMayor2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Entry Placeholder="Ingrese primer número..." 
+                   x:Name="campoPrimerNumero"
+                   Keyboard="Numeric"/>
+            <Entry Placeholder="Ingrese segundo número..." 
+                   x:Name="campoSegundoNumero"
+                   Keyboard="Numeric"/>
+            <Button Text="Determinar Mayor" 
+                    Clicked="detectarNumeroMayor"/>
+            <Label Text="Resultad: " 
+                   x:Name="textoPresentarMayor"
+                   FontSize="20"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

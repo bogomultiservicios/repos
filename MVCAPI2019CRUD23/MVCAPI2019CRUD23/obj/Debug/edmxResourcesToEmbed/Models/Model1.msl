@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PRUEBASABCModelStoreContainer" CdmEntityContainer="PRUEBASABCEntities">
+    <EntitySetMapping Name="VEHICULOS">
+      <EntityTypeMapping TypeName="PRUEBASABCModel.VEHICULOS">
+        <MappingFragment StoreEntitySet="VEHICULOS">
+          <ScalarProperty Name="IDVEHICULO" ColumnName="IDVEHICULO" />
+          <ScalarProperty Name="MARCA" ColumnName="MARCA" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="MODELO" ColumnName="MODELO" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="FECHARECEPCION" ColumnName="FECHARECEPCION" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="REGISTRO" ColumnName="REGISTRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ACTUALIZARVEHICULO" FunctionName="PRUEBASABCModel.Store.ACTUALIZARVEHICULO" />
+    <FunctionImportMapping FunctionImportName="BUSCARVEHICULO" FunctionName="PRUEBASABCModel.Store.BUSCARVEHICULO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="PRUEBASABCModel.BUSCARVEHICULO_Result">
+          <ScalarProperty Name="IDVEHICULO" ColumnName="IDVEHICULO" />
+          <ScalarProperty Name="MARCA" ColumnName="MARCA" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="MODELO" ColumnName="MODELO" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="FECHARECEPCION" ColumnName="FECHARECEPCION" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="REGISTRO" ColumnName="REGISTRO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ELIMINARVEHICULO" FunctionName="PRUEBASABCModel.Store.ELIMINARVEHICULO" />
+    <FunctionImportMapping FunctionImportName="INGRESARVEHICULO" FunctionName="PRUEBASABCModel.Store.INGRESARVEHICULO" />
+  </EntityContainerMapping>
+</Mapping>

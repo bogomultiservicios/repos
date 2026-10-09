@@ -1,0 +1,15 @@
+<api>
+  <jcw-types>
+    <type name="MainActivity" package="crc64e7fdf88c088c79ed" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiAppCompatActivity" partial_assembly_qualified_name="Restaurante.MainActivity, Restaurante">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MainActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="MainApplication" package="crc64e7fdf88c088c79ed" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="crc6488302ad6e9e4df1a.MauiApplication" is_application="True" partial_assembly_qualified_name="Restaurante.MainApplication, Restaurante" application_constructor="MainApplication" />
+  </jcw-types>
+  <acw-types partial-assembly-name="Restaurante" module-name="Restaurante.dll">
+    <type assembly-qualified-name="Restaurante.MainActivity, Restaurante, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="restaurante.MainActivity" java-key="crc64e7fdf88c088c79ed.MainActivity" managed-key="Restaurante.MainActivity" partial-assembly-qualified-name="Restaurante.MainActivity, Restaurante" />
+    <type assembly-qualified-name="Restaurante.MainApplication, Restaurante, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="restaurante.MainApplication" java-key="crc64e7fdf88c088c79ed.MainApplication" managed-key="Restaurante.MainApplication" partial-assembly-qualified-name="Restaurante.MainApplication, Restaurante" />
+  </acw-types>
+</api>

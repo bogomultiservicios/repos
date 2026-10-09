@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="NumerosPositivosNegativos" mvid="1469cdd404fe415f97d130de3bcdbcea">
+  <java-to-managed>
+    <entry java-name="crc649fbcd61c54ced1ad/MainActivity" managed-name="NumerosPositivosNegativos.MainActivity, NumerosPositivosNegativos" managed-type-token-id="33554442" />
+    <entry java-name="crc649fbcd61c54ced1ad/MainApplication" managed-name="NumerosPositivosNegativos.MainApplication, NumerosPositivosNegativos" managed-type-token-id="33554443" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc649fbcd61c54ced1ad/MainActivity" managed-name="NumerosPositivosNegativos.MainActivity, NumerosPositivosNegativos" managed-type-token-id="33554442" />
+    <entry java-name="crc649fbcd61c54ced1ad/MainApplication" managed-name="NumerosPositivosNegativos.MainApplication, NumerosPositivosNegativos" managed-type-token-id="33554443" />
+  </managed-to-java>
+</api>

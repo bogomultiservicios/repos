@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="establecerVocales" mvid="faa5304f46764f489e787b714b12c133">
+  <java-to-managed>
+    <entry java-name="crc643fc45e4d931252de/MainActivity" managed-name="establecerVocales.MainActivity, establecerVocales" managed-type-token-id="33554442" />
+    <entry java-name="crc643fc45e4d931252de/MainApplication" managed-name="establecerVocales.MainApplication, establecerVocales" managed-type-token-id="33554443" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc643fc45e4d931252de/MainActivity" managed-name="establecerVocales.MainActivity, establecerVocales" managed-type-token-id="33554442" />
+    <entry java-name="crc643fc45e4d931252de/MainApplication" managed-name="establecerVocales.MainApplication, establecerVocales" managed-type-token-id="33554443" />
+  </managed-to-java>
+</api>

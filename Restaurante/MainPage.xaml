@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restaurante.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Entry Placeholder="Ingrese Monto" 
+                   x:Name="campoMonto"
+                   Keyboard="Numeric"/>
+            <Button Text="Calcualar Pago" 
+                    Clicked="calcularMotoAPagar"/>
+            <Label Text="Monto del Descuento: " 
+                   x:Name="montoDescuento"/>
+            <Label Text="Impuesto: " 
+                   x:Name="montoImpuesto"/>
+            <Label Text="Importe a Pagar: " 
+                   x:Name="montoPagar"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="establecerVocales.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label Text="Caracter:" />
+            <Entry Placeholder="Ingrese letra ejem.: h" 
+                   x:Name="campoLetra"
+                   Keyboard="Text"/>
+            <Button Text="Evaluar" 
+                    Clicked="evaluadorConsonanteVocal"/>
+            <Label Text="" 
+                   x:Name="campoResultado"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
